@@ -1,0 +1,5 @@
+Goal: This folder contains all the source code for your project.
+Include all the scripts you used.
+Importantly, include a master script file to enable reproducing the results of your project by executing all the other scripts, in the correct order.
+All script files should include header comments at the beginning of a script to provide information that anyone working with or executing the script should be aware of. Throughout all your scripts, you should include copious comments explaining what each command or sequence of commands accomplishes and what the purpose is.
+
