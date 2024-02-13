@@ -5,7 +5,7 @@ Use markdown headers to divide content.
 
 ## Section 1: Software and platform section
 - Software type: R Studio
-- Package: shrute
+- Package: schrute
 - Platform: Mac/Windows
 
  ## Section 2: A Map of our documentation.
