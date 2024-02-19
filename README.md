@@ -15,7 +15,16 @@
 
 ## (3) Result Replication 
 In this section, you should give explicit step-by-step instructions to reproduce the Results of your study. These instructions should be written in straightforward plain English, but they must be concise, but detailed and precise enough, to make it possible for an interested user to reproduce your results without much difficulty. N.B. This section will be crucial for the CS1 assignment, where you'll be required to reproduce the results of other groups. Therefore, make sure to explain this section thoroughly. 
-### In order to replicate the results of our study, you must follow these steps: (can insert steps later lol)
+### In order to replicate the results of our study, you must follow these steps: 
+1. Download office_vader.csv from the DATA folder
+2. Go to the SCRIPTS file and download or copy the contents of the "project1_getting_varder_dataset.R"
+3. Open R studio and open the file you downloaded or create a new file and paste the contents
+4. Change this line: write.csv(final_dat, "C:\\Users\\Grace\\Desktop\\Data Science Project\\office_vader.csv", row.names = FALSE) to have the file path of where the data would be downloaded on your computer
+5. Run this file
+  - If you run into package install problems, run packages.install() on any package that you may need to run the file 
+7. Go back to the SCRIPTS file and download or copy the contents of the "project1_analyzing_vader.R"
+8. In R studio and open the file you downloaded or create a new file and paste the contents
+9. Run this file
 
 ## (4) References
 Lindblad B (2022). schrute: The Entire Transcript from the Office in Tidy Format. R package version 1.0.1, https://bradlindblad.github.io/schrute/ [Accessed February 2024].
